@@ -9,3 +9,22 @@
 .text-center {
     text-align: center;
 }
+.list-align-center {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+.about-me-main {
+    font-size: large;
+}
+.fake-button {
+    margin: 30px;
+    text-decoration: none;
+    background-color: rgb(15, 48, 118);
+    color: rgb(255, 255, 255);
+    display: block;
+}
+.fake-button:hover {
+    cursor: pointer;
+    background-color: #0056b3; /* Optional hover effect */
+}
