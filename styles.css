@@ -18,13 +18,39 @@
     font-size: large;
 }
 .fake-button {
-    margin: 30px;
-    text-decoration: none;
-    background-color: rgb(15, 48, 118);
-    color: rgb(255, 255, 255);
+    border: 2px white;
+    border-style: solid;
+    border-width: 1mm;
+    width: 30mm;
     display: block;
+    margin: 0 auto;
 }
-.fake-button:hover {
-    cursor: pointer;
-    background-color: #0056b3; /* Optional hover effect */
+.main {
+    width: 1000px;
+    height: 600px;
+    background: rgb(15, 15, 15);
+    display: block;
+    margin: 0 auto;
+    margin-top: 10mm;
+    padding: 1mm;
+    border-style: dotted;
+    border-color: #4AF626;
+}
+.default-text {
+    color: white;
+    letter-spacing: 0.3mm;
+    line-height: 7mm;}
+.about-me {
+    border: 2px white;
+    border-style: solid;
+    border-width: 1mm;
+    width: 30mm;
+    display: block;
+    margin: 0 auto;
+}
+.about-me:hover {
+    width: 260mm;
+    color: #000000;
+    background-color: white;
+    transition: 1s;
 }
