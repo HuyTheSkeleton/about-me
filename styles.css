@@ -39,7 +39,8 @@
 .default-text {
     color: white;
     letter-spacing: 0.3mm;
-    line-height: 7mm;}
+    line-height: 7mm;
+}
 .about-me {
     border: 2px white;
     border-style: solid;
@@ -52,5 +53,29 @@
     width: 260mm;
     color: #000000;
     background-color: white;
+    transition: 1s;
+}
+#sm-link {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 2px white;
+    border-style: solid;
+    border-width: 1mm;
+}
+#sm-link:hover {
+    width: 115mm;
+    background-color: white;
+    transition: 1s;
+}
+.sm-link-text {
+    text-decoration: none;
+    color: white;
+}
+.sm-link-text:hover {
+    color: black;
+    text-decoration: none;
+    word-spacing: 1.6mm;
+    letter-spacing: 2mm;
     transition: 1s;
 }
